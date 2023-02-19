@@ -20,6 +20,7 @@
     "paths": {
       "@/*": ["src/*"]
     },
+    "skipLibCheck": true,
   },
   "include": [
     "src/**/*.ts",
