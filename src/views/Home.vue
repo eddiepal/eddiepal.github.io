@@ -9,11 +9,8 @@
 
       <div class="text-body-2 font-weight-light mb-n1"></div>
 
-      <h1 class="text-h4 font-weight-bold mt-10">This website is a WIP - 
-        for now go check out Minecraft Legends which has absolutely 
-        nothing to do with this website other than the fact that I am VERY excited for it!!
-        And I want others to be too!</h1>
-      <h2 class="text-h5 font-weight-bold"><a href="https://www.minecraft.net/en-us/about-legends">Minecraft Legends</a></h2>
+      <h1 class="text-h4 font-weight-bold mt-10">This website is a WIP by me (Eddie) as of July 2023. Come back later to see changes.</h1>
+      <h1 class="text-h4 font-weight-bold mt-10">Thanks for visiting!</h1>
       <div class="py-14" />
 
       <!-- <v-row class="d-flex align-center justify-center">
