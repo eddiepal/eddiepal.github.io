@@ -1,192 +1,119 @@
 <template>
-  <div style="background-color: #b2daff; height: 100%;">
+  <div style="background-color: #b2daff; height: 100%">
     <div id="fullNameHeader">EDWARD BURKE</div>
     <div id="personalOverviewHeader">Tester. Coder. Quality Engineer.</div>
     <div style="height: auto; position: relative; margin: auto">
       <div id="contentBackground">
-        <div
-          style="width: 95%; margin-bottom: 60px; height: auto; top: 20px; position: relative; left: 20px; right: 20px color: black; font-size: 20px; font-family: Inter; font-weight: 400;"
-        >
-          Hello! I am a Quality Assurance Engineer with a focus on the automation
-          of testing. I love software that is delivered with the quality that
-          exceeds user’s expectations. That is always the aim! Whether it is the
-          direct user experience, security of the software, regulatory
-          requirements or whatever else. I have a passion for these requirements
-          to be met or if possible, met beyond what is required in a way that
-          positively impacts the end user!
+        <div id="personalOverviewContent">
+          Hello! I am a Quality Assurance Engineer with a focus on the
+          automation of testing. I love software that is delivered with the
+          quality that exceeds user’s expectations. That is always the aim!
+          Whether it is the direct user experience, security of the software,
+          regulatory requirements or whatever else. I have a passion for these
+          requirements to be met or if possible, met beyond what is required in
+          a way that positively impacts the end user!
         </div>
-        <div class="sectionContent">
-          <div class="sectionHeaders">WORK EXPERIENCE</div>
-          <div class="informationHeader">
-            <span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >QA Automation Engineer <br /></span
-            ><span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              "
-              >Engage XR: September 2021 - Current Day</span
-            >
-          </div>
-          <ul class="commonUnorderedList">
-            <li>
-              Planning, creating, and running of various types of auto & manual
-              tests
-            </li>
-            <li>
-              Test automation using Cypress together with JavaScript & Cucumber
-            </li>
-            <li>Creation of automation tools</li>
-            <li>Writing automated Frontend E2E tests</li>
-            <li>Writing automated API tests</li>
-            <li>
-              Triages, sprint reviews, communication with developers and POs as
-              required
-            </li>
-            <li>In depth document reviewing and verification</li>
-            <li>Manual testing where required</li>
-          </ul>
-          <div class="informationHeader">
-            <span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >Student Unity Developer<br /></span
-            ><span
-              style="
+        <div>
+          <div class="sectionHeader">WORK EXPERIENCE</div>
+          <div class="sectionContent">
+            <div class="informationHeader">
+              <span class="superSubHeader">QA Automation Engineer <br /></span><span style="
+                  color: black;
+                  font-size: 20px;
+                  font-family: Inter;
+                  font-weight: 400;
+                  word-wrap: break-word;
+                ">Engage XR: September 2021 - Current</span>
+            </div>
+            <ul class="commonUnorderedList">
+              <li>
+                Planning, creating, and running of various types of auto &
+                manual tests
+              </li>
+              <li>
+                Test automation using Cypress together with JavaScript &
+                Cucumber
+              </li>
+              <li>Creation of automation tools</li>
+              <li>Writing automated Frontend E2E tests</li>
+              <li>Writing automated API tests</li>
+              <li>
+                Triages, sprint reviews, communication with developers and POs
+                as required
+              </li>
+              <li>In depth document reviewing and verification</li>
+              <li>Manual testing where required</li>
+            </ul>
+            <div class="informationHeader">
+              <span class="superSubHeader">Student Unity Developer<br /></span><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Virtual Rehab Platform (V3R): January – June 2019</span
-            >
-          </div>
-          <div class="informationHeader">
-            <span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >Funpark Assistant<br /></span
-            ><span
-              style="
+              ">Virtual Rehab Platform (V3R): January – June 2019</span>
+              <ul class="commonUnorderedList">
+                <li>
+                  Developer for VR project using HTC Vive and Leap Motion sensor
+                </li>
+                <li>Working with Unity & C#</li>
+                <li>Worked in a team of four students</li>
+                <li>
+                  1st place team award received for the project at Windesheim
+                  University
+                </li>
+              </ul>
+            </div>
+            <div class="informationHeader">
+              <span class="superSubHeader">Funpark Assistant<br /></span><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Courtown Funpark: Summer 2017 and 2018</span
-            >
-          </div>
-          <div
-            style="
+              ">Courtown Funpark: Summer 2017 and 2018</span>
+            </div>
+            <div style="
               position: relative;
               color: black;
               font-size: 20px;
               font-family: Inter;
               font-weight: 400;
               word-wrap: break-word;
-            "
-          >
-            <ul class="commonUnorderedList">
-              <li>
-                Developer for VR project using HTC Vive and Leap Motion sensor
-              </li>
-              <li>Working with Unity & C#</li>
-              <li>Worked in a team of four students</li>
-              <li>
-                1st place award received for the project at Windesheim
-                University
-              </li>
-            </ul>
+            ">
+            </div>
           </div>
-          <div
-            style="width: 414.77px; left: 0px; top: 572px; position: relative"
-          ></div>
+          <div style="width: 414.77px; left: 0px; top: 572px; position: relative"></div>
         </div>
+        <div class="sectionHeader">EDUCATION</div>
         <div class="sectionContent">
-          <div class="sectionHeaders">EDUCATION</div>
           <div>
-            <span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >BSc (Hons) in Applied Computing (Games Development)<br /></span
-            ><span
-              style="
+            <span class="superSubHeader">BSc (Hons) in Applied Computing (Games Development)<br /></span><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Waterford Institute of Technology (Ireland) <br />2016 - 2020<br /><br /></span
-            ><span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >Erasmus Advanced BSc minor (Hons) in Games Programming<br /></span
-            ><span
-              style="
+              ">Waterford Institute of Technology (Ireland) <br />2016 - 2020<br /><br /></span><span
+              class="superSubHeader">Erasmus Advanced BSc minor (Hons) in Games Programming<br /></span><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Windesheim University of Applied Sciences (Zwolle,
-              Netherlands)<br />January - July 2019<br /><br /></span
-            ><span
-              style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 700;
-                word-wrap: break-word;
-              "
-              >Graphic Design – PLC FETAC Level 5 Award<br /></span
-            ><span
-              style="
+              ">Windesheim University of Applied Sciences (Zwolle,
+              Netherlands)<br />January - July 2019<br /><br /></span><span class="superSubHeader">Graphic Design – PLC
+              FETAC Level 5 Award<br /></span><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Selskar College (Westgate, Wexford) <br />2015 – 2016<br
-            /></span>
+              ">Selskar College (Westgate, Wexford) <br />2015 – 2016<br /></span>
           </div>
         </div>
+        <div class="sectionHeader">CERTIFICATIONS & ACHIEVEMENTS</div>
         <div class="sectionContent">
-          <div class="sectionHeaders">CERTIFICATIONS & ACHIEVEMENTS</div>
           <div>
             <ul class="commonUnorderedList">
               <li>ISTQB CTFL certified</li>
@@ -199,38 +126,30 @@
             </ul>
           </div>
         </div>
+        <div class="sectionHeader">CONTACT</div>
         <div class="sectionContent">
-          <div class="sectionHeaders">CONTACT</div>
-          <div style="padding-bottom: 20px; margin-bottom: 100px;">
-            <span
-              style="
+          <div style="padding-bottom: 20px; margin-bottom: 100px">
+            <span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 word-wrap: break-word;
-              "
-              >Best way to contact me is through </span
-            ><a href="https://www.linkedin.com/in/eddieburke/"
-              style="
+              ">Best way to contact me is through </span><a href="https://www.linkedin.com/in/eddieburke/" style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
                 text-decoration: underline;
                 word-wrap: break-word;
-              "
-              >my profile</a
-            ><span
-              style="
+              ">my profile</a><span style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
-                word-wrap: break-word;              "
-            >
-              on LinkedIn.</span
-            >
+                word-wrap: break-word;
+              ">
+              on LinkedIn.</span>
           </div>
         </div>
       </div>
@@ -294,12 +213,25 @@
   text-align: left;
 }
 
+#personalOverviewContent {
+  width: 95%;
+  margin-bottom: 60px;
+  height: auto;
+  top: 20px;
+  position: relative;
+  left: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
 .informationHeader {
   line-height: 30px;
   margin-top: 20px;
 }
 
-.sectionHeaders {
+.sectionHeader {
   text-align: center;
   color: black;
   font-size: 24px;
@@ -307,16 +239,24 @@
   font-weight: 800;
   text-decoration: underline;
   word-wrap: break-word;
-  margin: auto;
   margin-top: 30px;
   margin-bottom: 25px;
   position: relative;
+  height: auto;
 }
 
 .sectionContent {
   position: relative;
   padding-left: 35px;
   height: auto;
+}
+
+.superSubHeader {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
 }
 
 .commonUnorderedList {
@@ -329,7 +269,7 @@
   word-wrap: break-word;
   margin-bottom: 25px;
   left: 20px;
-  width: 95%
+  width: 95%;
 }
 </style>
 
