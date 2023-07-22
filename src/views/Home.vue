@@ -17,13 +17,8 @@
           <div class="sectionHeader">WORK EXPERIENCE</div>
           <div class="sectionContent">
             <div class="informationHeader">
-              <span class="superSubHeader">QA Automation Engineer <br /></span><span style="
-                  color: black;
-                  font-size: 20px;
-                  font-family: Inter;
-                  font-weight: 400;
-                  word-wrap: break-word;
-                ">Engage XR: September 2021 - Current</span>
+              <span class="superSubHeader">QA Automation Engineer <br /></span><span class="regularContentText">Engage XR:
+                September 2021 - Current</span>
             </div>
             <ul class="commonUnorderedList">
               <li>
@@ -45,13 +40,8 @@
               <li>Manual testing where required</li>
             </ul>
             <div class="informationHeader">
-              <span class="superSubHeader">Student Unity Developer<br /></span><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Virtual Rehab Platform (V3R): January – June 2019</span>
+              <span class="superSubHeader">Student Unity Developer<br /></span><span class="regularContentText">Virtual
+                Rehab Platform (V3R): January – June 2019</span>
               <ul class="commonUnorderedList">
                 <li>
                   Developer for VR project using HTC Vive and Leap Motion sensor
@@ -65,51 +55,21 @@
               </ul>
             </div>
             <div class="informationHeader">
-              <span class="superSubHeader">Funpark Assistant<br /></span><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Courtown Funpark: Summer 2017 and 2018</span>
-            </div>
-            <div style="
-              position: relative;
-              color: black;
-              font-size: 20px;
-              font-family: Inter;
-              font-weight: 400;
-              word-wrap: break-word;
-            ">
+              <span class="superSubHeader">Funpark Assistant<br /></span><span class="regularContentText">Courtown
+                Funpark: Summer 2017 and 2018</span>
             </div>
           </div>
-          <div style="width: 414.77px; left: 0px; top: 572px; position: relative"></div>
         </div>
         <div class="sectionHeader">EDUCATION</div>
         <div class="sectionContent">
           <div>
-            <span class="superSubHeader">BSc (Hons) in Applied Computing (Games Development)<br /></span><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Waterford Institute of Technology (Ireland) <br />2016 - 2020<br /><br /></span><span
-              class="superSubHeader">Erasmus Advanced BSc minor (Hons) in Games Programming<br /></span><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Windesheim University of Applied Sciences (Zwolle,
+            <span class="superSubHeader">BSc (Hons) in Applied Computing (Games Development)<br /></span><span
+              class="regularContentText">Waterford Institute of Technology (Ireland) <br />2016 -
+              2020<br /><br /></span><span class="superSubHeader">Erasmus Advanced BSc minor (Hons) in Games
+              Programming<br /></span><span class="regularContentText">Windesheim University of Applied Sciences (Zwolle,
               Netherlands)<br />January - July 2019<br /><br /></span><span class="superSubHeader">Graphic Design – PLC
-              FETAC Level 5 Award<br /></span><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Selskar College (Westgate, Wexford) <br />2015 – 2016<br /></span>
+              FETAC Level 5 Award<br /></span><span class="regularContentText">Selskar College (Westgate, Wexford)
+              <br />2015 – 2016<br /></span>
           </div>
         </div>
         <div class="sectionHeader">CERTIFICATIONS & ACHIEVEMENTS</div>
@@ -129,26 +89,9 @@
         <div class="sectionHeader">CONTACT</div>
         <div class="sectionContent">
           <div style="padding-bottom: 20px; margin-bottom: 100px">
-            <span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">Best way to contact me is through </span><a href="https://www.linkedin.com/in/eddieburke/" style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                text-decoration: underline;
-                word-wrap: break-word;
-              ">my profile</a><span style="
-                color: black;
-                font-size: 20px;
-                font-family: Inter;
-                font-weight: 400;
-                word-wrap: break-word;
-              ">
+            <span class="regularContentText">Best way to contact me is through </span><a
+              href="https://www.linkedin.com/in/eddieburke/" class="regularContentText">my profile</a><span
+              class="regularContentText">
               on LinkedIn.</span>
           </div>
         </div>
@@ -173,7 +116,7 @@
 #fullNameHeader {
   margin: auto;
   width: 50%;
-  height: 10px;
+  min-height: 10px;
   text-align: center;
   color: black;
   font-size: 40px;
@@ -181,7 +124,7 @@
   font-weight: 800;
   position: center;
   border-bottom: 2px solid black;
-  padding-bottom: 70px;
+  padding-bottom: 1px;
   border-right-width: 300;
   border-left-width: 200px;
   margin-bottom: 50px;
@@ -189,7 +132,7 @@
 }
 
 #personalOverviewHeader {
-  height: 80px;
+  min-height: 80px;
   left: 281.21px;
   top: 0px;
   text-align: center;
@@ -202,10 +145,10 @@
 }
 
 #contentBackground {
-  width: 1151.88px;
   height: auto;
   left: 133.5px;
-  width: 65%;
+  max-width: 1100px;
+  width: 100%;
   position: center;
   background: #bfe0ff;
   border-radius: 31px;
@@ -214,12 +157,12 @@
 }
 
 #personalOverviewContent {
-  width: 95%;
   margin-bottom: 60px;
   height: auto;
-  top: 20px;
+  top: 25px;
   position: relative;
-  left: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
   color: black;
   font-size: 20px;
   font-family: Inter;
@@ -248,6 +191,7 @@
 .sectionContent {
   position: relative;
   padding-left: 35px;
+  padding-right: 35px;
   height: auto;
 }
 
@@ -256,6 +200,14 @@
   font-size: 20px;
   font-family: Inter;
   font-weight: 700;
+  word-wrap: break-word;
+}
+
+.regularContentText {
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
   word-wrap: break-word;
 }
 
