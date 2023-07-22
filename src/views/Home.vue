@@ -1,13 +1,37 @@
 <template>
-  <div style="background-color: #b2daff">
+  <div style="background-color: #b2daff; height: 100%;">
     <div id="fullNameHeader">EDWARD BURKE</div>
     <div id="personalOverviewHeader">Tester. Coder. Quality Engineer.</div>
+    <!-- <div
+        style="
+          width: 1660px;
+          height: 0px;
+          left: 12%;
+          top: 190px;
+          position: absolute;
+          transform: rotate(90deg);
+          transform-origin: 0 0;
+          border: 0.5px black solid;
+        "
+      ></div>
+      <div
+        style="
+          width: 1660px;
+          height: 0px;
+          left: 88%;
+          top: 190px;
+          position: absolute;
+          transform: rotate(90deg);
+          transform-origin: 0 0;
+          border: 0.5px black solid;
+        "
+      ></div> -->
     <div style="height: auto; position: relative; margin: auto">
       <div id="contentBackground">
         <div
-          style="width: 95%; height: auto; top: 20px; position: relative; left: 20px; right: 20px color: black; font-size: 20px; font-family: Inter; font-weight: 400;"
+          style="width: 95%; margin-bottom: 60px; height: auto; top: 20px; position: relative; left: 20px; right: 20px color: black; font-size: 20px; font-family: Inter; font-weight: 400;"
         >
-          Hello! I am Quality Assurance Engineer with a focus on the automation
+          Hello! I am a Quality Assurance Engineer with a focus on the automation
           of testing. I love software that is delivered with the quality that
           exceeds user’s expectations. That is always the aim! Whether it is the
           direct user experience, security of the software, regulatory
@@ -201,7 +225,7 @@
         </div>
         <div class="sectionContent">
           <div class="sectionHeaders">CONTACT</div>
-          <div>
+          <div style="padding-bottom: 20px; margin-bottom: 100px;">
             <span
               style="
                 color: black;
@@ -211,7 +235,7 @@
                 word-wrap: break-word;
               "
               >Best way to contact me is through </span
-            ><span
+            ><a href="https://www.linkedin.com/in/eddieburke/"
               style="
                 color: black;
                 font-size: 20px;
@@ -220,45 +244,20 @@
                 text-decoration: underline;
                 word-wrap: break-word;
               "
-              >my profile</span
+              >my profile</a
             ><span
               style="
                 color: black;
                 font-size: 20px;
                 font-family: Inter;
                 font-weight: 400;
-                word-wrap: break-word;
-              "
+                word-wrap: break-word;              "
             >
               on LinkedIn.</span
             >
           </div>
         </div>
       </div>
-      <div
-        style="
-          width: 1760px;
-          height: 0px;
-          left: 1419px;
-          top: 0px;
-          position: relative;
-          transform: rotate(90deg);
-          transform-origin: 0 0;
-          border: 0.5px black solid;
-        "
-      ></div>
-      <div
-        style="
-          width: 1760px;
-          height: 0px;
-          left: 0px;
-          top: 58.75px;
-          position: relative;
-          transform: rotate(90deg);
-          transform-origin: 0 0;
-          border: 0.5px black solid;
-        "
-      ></div>
     </div>
   </div>
 </template>
@@ -311,7 +310,7 @@
   width: 1151.88px;
   height: auto;
   left: 133.5px;
-  width: 60%;
+  width: 65%;
   position: center;
   background: #bfe0ff;
   border-radius: 31px;
@@ -333,8 +332,8 @@
   text-decoration: underline;
   word-wrap: break-word;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   position: relative;
 }
 
@@ -354,6 +353,7 @@
   word-wrap: break-word;
   margin-bottom: 25px;
   left: 20px;
+  width: 95%
 }
 </style>
 
