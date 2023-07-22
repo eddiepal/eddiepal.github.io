@@ -2,30 +2,6 @@
   <div style="background-color: #b2daff; height: 100%;">
     <div id="fullNameHeader">EDWARD BURKE</div>
     <div id="personalOverviewHeader">Tester. Coder. Quality Engineer.</div>
-    <!-- <div
-        style="
-          width: 1660px;
-          height: 0px;
-          left: 12%;
-          top: 190px;
-          position: absolute;
-          transform: rotate(90deg);
-          transform-origin: 0 0;
-          border: 0.5px black solid;
-        "
-      ></div>
-      <div
-        style="
-          width: 1660px;
-          height: 0px;
-          left: 88%;
-          top: 190px;
-          position: absolute;
-          transform: rotate(90deg);
-          transform-origin: 0 0;
-          border: 0.5px black solid;
-        "
-      ></div> -->
     <div style="height: auto; position: relative; margin: auto">
       <div id="contentBackground">
         <div
