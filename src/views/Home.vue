@@ -4,7 +4,7 @@
     <div id="personalOverviewHeader">Tester. Coder. Quality Engineer.</div>
     <div style="height: auto; position: relative; margin: auto">
       <div id="contentBackground">
-        <div id="personalOverviewContent">
+        <p id="personalOverviewContent">
           Hello! I am a Quality Assurance Engineer with a focus on the
           automation of testing. I love software that is delivered with the
           quality that exceeds user’s expectations. That is always the aim!
@@ -12,13 +12,14 @@
           regulatory requirements or whatever else. I have a passion for these
           requirements to be met or if possible, met beyond what is required in
           a way that positively impacts the end user!
-        </div>
+        </p>
         <div>
           <div class="sectionHeader">WORK EXPERIENCE</div>
           <div class="sectionContent">
             <div class="informationHeader">
-              <span class="superSubHeader">QA Automation Engineer <br /></span><span class="regularContentText">Engage XR:
-                September 2021 - Current</span>
+              <div class="superSubHeader">QA Automation Engineer <br /></div>
+              <div class="regularContentText">Engage XR:
+                September 2021 - Current</div>
             </div>
             <ul class="commonUnorderedList">
               <li>
@@ -40,8 +41,9 @@
               <li>Manual testing where required</li>
             </ul>
             <div class="informationHeader">
-              <span class="superSubHeader">Student Unity Developer<br /></span><span class="regularContentText">Virtual
-                Rehab Platform (V3R): January – June 2019</span>
+              <div class="superSubHeader">Student Unity Developer<br /></div>
+              <div class="regularContentText">Virtual
+                Rehab Platform (V3R): January – June 2019</div>
               <ul class="commonUnorderedList">
                 <li>
                   Developer for VR project using HTC Vive and Leap Motion sensor
@@ -55,21 +57,27 @@
               </ul>
             </div>
             <div class="informationHeader">
-              <span class="superSubHeader">Funpark Assistant<br /></span><span class="regularContentText">Courtown
-                Funpark: Summer 2017 and 2018</span>
+              <div class="superSubHeader">Funpark Assistant<br /></div>
+              <div class="regularContentText">Courtown
+                Funpark: Summer 2017 and 2018</div>
             </div>
           </div>
         </div>
         <div class="sectionHeader">EDUCATION</div>
         <div class="sectionContent">
           <div>
-            <span class="superSubHeader">BSc (Hons) in Applied Computing (Games Development)<br /></span><span
-              class="regularContentText">Waterford Institute of Technology (Ireland) <br />2016 -
-              2020<br /><br /></span><span class="superSubHeader">Erasmus Advanced BSc minor (Hons) in Games
-              Programming<br /></span><span class="regularContentText">Windesheim University of Applied Sciences (Zwolle,
-              Netherlands)<br />January - July 2019<br /><br /></span><span class="superSubHeader">Graphic Design – PLC
-              FETAC Level 5 Award<br /></span><span class="regularContentText">Selskar College (Westgate, Wexford)
-              <br />2015 – 2016<br /></span>
+            <div class="superSubHeader">BSc (Hons) in Applied Computing (Games Development)<br /></div>
+            <div class="regularContentText">Waterford Institute of Technology (Ireland) <br />2016 -
+              2020<br /><br /></div>
+            <div class="superSubHeader">Erasmus Advanced BSc minor (Hons) in Games
+              Programming<br /></div>
+            <div class="regularContentText">Windesheim University of Applied Sciences (Zwolle,
+              Netherlands)<br />January - July 2019<br /><br /></div>
+            <div class="superSubHeader">Graphic Design – PLC
+              FETAC Level 5 Award<br /></div>
+            <div class="regularContentText">Selskar College (Westgate, Wexford)
+              <br />2015 – 2016<br />
+            </div>
           </div>
         </div>
         <div class="sectionHeader">CERTIFICATIONS & ACHIEVEMENTS</div>
@@ -89,10 +97,9 @@
         <div class="sectionHeader">CONTACT</div>
         <div class="sectionContent">
           <div style="padding-bottom: 20px; margin-bottom: 100px">
-            <span class="regularContentText">Best way to contact me is through </span><a
-              href="https://www.linkedin.com/in/eddieburke/" class="regularContentText">my profile</a><span
-              class="regularContentText">
-              on LinkedIn.</span>
+            <div class="regularContentText">Best way to contact me is through <a
+                href="https://www.linkedin.com/in/eddieburke/">my profile</a>
+              on LinkedIn.</div>
           </div>
         </div>
       </div>
@@ -101,18 +108,6 @@
 </template>
 
 <style>
-#namePageTitle {
-  width: 475px;
-  flex-shrink: 0;
-  color: #000;
-  text-align: center;
-  font-family: Inter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 #fullNameHeader {
   margin: auto;
   width: 50%;
