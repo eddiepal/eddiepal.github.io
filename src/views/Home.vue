@@ -44,18 +44,18 @@
               <div class="superSubHeader">Student Unity Developer<br /></div>
               <div class="regularContentText">Virtual
                 Rehab Platform (V3R): January – June 2019</div>
-              <ul class="commonUnorderedList">
+            </div>
+            <ul class="commonUnorderedList">
                 <li>
                   Developer for VR project using HTC Vive and Leap Motion sensor
                 </li>
-                <li>Working with Unity & C#</li>
                 <li>Worked in a team of four students</li>
+                <li>Developing using Unity & C#</li>
                 <li>
                   1st place team award received for the project at Windesheim
                   University
                 </li>
               </ul>
-            </div>
             <div class="informationHeader">
               <div class="superSubHeader">Funpark Assistant<br /></div>
               <div class="regularContentText">Courtown
@@ -96,7 +96,7 @@
         </div>
         <div class="sectionHeader">CONTACT</div>
         <div class="sectionContent">
-          <div style="padding-bottom: 20px; margin-bottom: 100px">
+          <div style="">
             <div class="regularContentText">Best way to contact me is through <a
                 href="https://www.linkedin.com/in/eddieburke/">my profile</a>
               on LinkedIn.</div>
@@ -115,10 +115,10 @@
   text-align: center;
   color: black;
   font-size: 40px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   position: center;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
   padding-bottom: 1px;
   border-right-width: 300;
   border-left-width: 200px;
@@ -133,10 +133,11 @@
   text-align: center;
   color: black;
   font-size: 40px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   word-wrap: break-word;
   margin: auto;
+  padding-bottom: 15px;
 }
 
 #contentBackground {
@@ -149,6 +150,8 @@
   border-radius: 31px;
   margin: auto;
   text-align: left;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 #personalOverviewContent {
@@ -160,20 +163,21 @@
   padding-right: 35px;
   color: black;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
 .informationHeader {
   line-height: 30px;
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .sectionHeader {
   text-align: center;
   color: black;
   font-size: 24px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   text-decoration: underline;
   word-wrap: break-word;
@@ -193,7 +197,7 @@
 .superSubHeader {
   color: black;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   word-wrap: break-word;
 }
@@ -201,7 +205,7 @@
 .regularContentText {
   color: black;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -211,7 +215,7 @@
   position: relative;
   color: black;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   word-wrap: break-word;
   margin-bottom: 25px;
@@ -221,5 +225,5 @@
 </style>
 
 <script lang="ts" setup>
-import HelloWorld from "@/components/HelloWorld.vue";
+
 </script>
